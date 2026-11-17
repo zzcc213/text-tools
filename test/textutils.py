@@ -6,7 +6,7 @@ import sys
 
 def reverse_string(text: str) -> str:
     """Повертає рядок у зворотному порядку."""
-    return text[::-1]
+    return text
 
 
 def is_palindrome(text: str) -> bool:
