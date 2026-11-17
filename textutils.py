@@ -18,7 +18,7 @@ def is_palindrome(text: str) -> bool:
 
 def count_words(text: str) -> int:
     """Повертає кількість слів у рядку."""
-    return len(text.split())
+    return len(text.split() )
 
 
 COMMANDS = {
